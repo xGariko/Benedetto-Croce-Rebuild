@@ -7,7 +7,7 @@
 .navbar {
   list-style-type: none;
   overflow: hidden;
-  background: #CDCDCD;
+  background: #9F9F9F;
   border-bottom: 2px black solid;
   width: 100%;
   height: 100%;
@@ -31,14 +31,14 @@
 }
 
 .navbar #navimg img {
-  background: #CDCDCD;
+  background: #9F9F9F;
   padding-top: 4px;
   width: 40px;
   height: 40px;
 }
 
 .navbar-right #navimg img {
-  background: #CDCDCD;
+  background: #9F9F9F;
   padding-top: 4px;
   width: 40px;
   height: 40px;
@@ -58,4 +58,26 @@
 
 .navbar #navelement a:hover {
   color: black;
+}
+
+#navtext {
+  text-shadow: 10px 10px solid black;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.bannertext{
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+.banner .bannertext #extext{
+  padding-left: 100px;
+  font-size: small;
 }

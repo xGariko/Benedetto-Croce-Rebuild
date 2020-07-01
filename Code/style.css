@@ -4,6 +4,9 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+}
 
 .navbar-left{
   list-style-type: none;
@@ -36,20 +39,30 @@
   padding-top: 27px;
 }
 
-.navbar-left i{
+.fa-facebook-square{
+  padding: 0;
   font-size: 40px;
   position: relative;
+  color: red;
   bottom: 4px;
- 
   
- 
+}
+.navbar-left i:hover{
+  color:red;
+  background-color: white;
 }
 .navbar-right i{
   font-size: 40px;
   position: relative;
   left: 1860px;
-  bottom: 70px;
-  color: blue;
+  bottom: 80px;
+  color: rgb(0, 255, 42);
+}
+
+.carousel-inner img{
+  width: 50%;
+  position: relative;
+  left: 25%;
 }
 
 

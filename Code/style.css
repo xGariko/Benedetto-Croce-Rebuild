@@ -13,12 +13,16 @@
   height: 100%;
 }
 
+.navbar-right {
+  list-style-type: none;
+}
+
 .navbar li {
   float: left;
   padding: 10px;
 }
 
-.navbar #navelement a{
+.navbar #navelement a {
   display: block;
   color: white;
   text-align: center;
@@ -26,25 +30,32 @@
   text-decoration: none;
 }
 
-.navbar #navimg img{
+.navbar #navimg img {
   background: #CDCDCD;
   padding-top: 4px;
   width: 40px;
   height: 40px;
 }
 
-.navbar #navimg #key{
+.navbar-right #navimg img {
+  background: #CDCDCD;
+  padding-top: 4px;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-right li {
   float: right;
 }
 
-.navbar #navimg #facebook:hover{
-  content:url("res/FacebookLogo black.png");
+.navbar #navimg #facebook:hover {
+  content: url("res/FacebookLogo black.png");
 }
 
-.navbar #navimg #key:hover{
-  content:url("res/key black.png");
+.navbar-right #navimg #key:hover {
+  content: url("res/key black.png");
 }
 
-.navbar #navelement a:hover{
+.navbar #navelement a:hover {
   color: black;
 }

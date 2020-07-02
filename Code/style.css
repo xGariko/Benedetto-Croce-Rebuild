@@ -7,8 +7,54 @@
 html{
   font-size: 62.5%;
 }
+/* .navbar{
+  background-color: #112255 !important;
+} */
+.navbar{
+  padding: 0.8rem !important;
+}
+.fa-facebook-square{
+  font-size: 4rem;
+  color: red;
+ 
+  
+}
+#text-link1, #text-link2{
+  padding-left: 2rem;
+  position: relative;
+  top: 2rem;
+  font-size: 1.4em;
+}
 
-.navbar-left{
+.fa-universal-access{
+  font-size: 4rem;
+  position: relative;
+  bottom: 1rem;
+
+}
+
+@media (max-width: 768px){
+  .left-element{
+    text-align: center;
+    display: inline-block;
+  }
+  #text-link1{
+    position: relative;
+    left: 4rem;
+  }
+  #text-link2{
+    position: relative;
+    left: 22rem;
+  }
+  .fa-universal-access{
+    position: relative;
+    bottom: 5.8rem;
+  }
+}
+
+
+
+/* .navbar-left{
   list-style-type: none;
   overflow: hidden;
   background: black;
@@ -34,20 +80,13 @@ html{
   padding-top: 20px;
   text-decoration: none;
 }
-
+/* 
 .navbar-left #text-link{
   padding-top: 27px;
-}
+} */
 
-.fa-facebook-square{
-  padding: 0;
-  font-size: 40px;
-  position: relative;
-  color: red;
-  bottom: 4px;
-  
-}
-.navbar-left i:hover{
+
+/* .navbar-left i:hover{
   color:red;
   background-color: white;
 }
@@ -57,7 +96,7 @@ html{
   left: 1860px;
   bottom: 80px;
   color: rgb(0, 255, 42);
-}
+} */ 
 
 .carousel-inner img{
   width: 50%;

@@ -10,47 +10,41 @@ html{
 /* .navbar{
   background-color: #112255 !important;
 } */
+
 .navbar{
   padding: 0.8rem !important;
 }
+
+
 .fa-facebook-square{
   font-size: 4rem;
   color: red;
- 
-  
-}
+ }
+
+
+
 #text-link1, #text-link2{
   padding-left: 2rem;
   position: relative;
-  top: 2rem;
+  bottom: 1rem;
   font-size: 1.4em;
 }
 
 .fa-universal-access{
   font-size: 4rem;
-  position: relative;
-  bottom: 1rem;
-
 }
 
-@media (max-width: 768px){
-  .left-element{
-    text-align: center;
-    display: inline-block;
-  }
-  #text-link1{
-    position: relative;
-    left: 4rem;
-  }
-  #text-link2{
-    position: relative;
-    left: 22rem;
-  }
-  .fa-universal-access{
-    position: relative;
-    bottom: 5.8rem;
-  }
-}
+/* @media (max-width: 768px){
+	#text-link1{
+		position: relative;
+		left: 12rem;	
+	}
+	#text-link2{
+		position: relative;
+		left: 26rem;
+
+	}
+} */
 
 
 

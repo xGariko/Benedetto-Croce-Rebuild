@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-croce</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="formcroce.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+   <h2>REGISTRATI</h2> 
+   <div class="container">
+       <form class="form" action="">
+           <div class="userface">
+            <svg width="5em" height="3em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            <input type="username" maxlength="24" minlength="3" id="username"  placeholder="NOME" required>
+           
+           </div>
+
+           <div class="utenteface">
+            <svg width="5em" height="3em" viewBox="0 0 16 16" class="bi bi-person-badge-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/>
+            </svg>
+            
+            <input type="username" maxlength="24" minlength="3" id="username"  placeholder="UTENTE" required>
+           
+           </div>
+
+           <div class="emailface">
+            <svg width="5em" height="3em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+
+            <input type="email"  id="username"  placeholder="E-MAIL" required>
+           
+
+
+           </div>
+
+           <div class="pass2">
+               <div class="pass1">
+                <svg width="5em" height="3em" viewBox="0 0 16 16" class="bi bi-key-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+               </div>
+                
+               <div class="pass">
+                <input class="1" type="password" maxlength="24" minlength="4" id="username"  placeholder="PASSWORD" required>
+                <input class="2" type="password" maxlength="24" minlength="4" id="username"  placeholder="RIPETI PASSWORD" required><br>
+                
+               </div>
+            
+            
+            
+
+
+
+
+
+           </div>
+           <div>
+            <p id="error">*Le due password non corrispondono.</p>
+            </div>
+           <div class="tutto">
+            
+               <div class="bottone">
+                <div>
+                    <input type="radio" value="STUDENTE" id="studente" name="scelta" required>
+                    <label for="studente">STUDENTE</label><br>
+                </div>
+                    
+               
+                <div>
+                    <input type="radio" value="GENITORE" id="genitore" name="scelta" required>
+                    <label for="genitore">GENITORE</label><br>
+                </div>
+                    
+                
+                <div>
+                    <input type="radio" value="ATA-SEGRETERIA" id="ATA-SEGRETERIA" name="scelta" required>
+                    <label for="ATA-SEGRETERIA">ATA - SEGRETERIA</label><br>
+                </div>
+                    
+                
+                <div>
+                    <input type="radio" value="DOCENTE" id="docente" name="scelta" required>
+                    <label for="docente">DOCENTE</label><br>
+               
+                </div>
+               </div>
+                
+               
+                    
+
+             
+                
+                
+                
+    
+    
+               
+
+               <div class="codex">
+                   <div class="shield">
+                    <svg width="5em" height="3em" viewBox="0 0 16 16" class="bi bi-shield-shaded" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path id="shield" fill-rule="evenodd" d="M5.443 1.991a60.17 60.17 0 0 0-2.725.802.454.454 0 0 0-.315.366C1.87 7.056 3.1 9.9 4.567 11.773c.736.94 1.533 1.636 2.197 2.093.333.228.626.394.857.5.116.053.21.089.282.11A.73.73 0 0 0 8 14.5c.007-.001.038-.005.097-.023.072-.022.166-.058.282-.111.23-.106.525-.272.857-.5a10.197 10.197 0 0 0 2.197-2.093C12.9 9.9 14.13 7.056 13.597 3.159a.454.454 0 0 0-.315-.366c-.626-.2-1.682-.526-2.725-.802C9.491 1.71 8.51 1.5 8 1.5c-.51 0-1.49.21-2.557.491zm-.256-.966C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 0 1 2.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 0 1-2.418 2.3 6.942 6.942 0 0 1-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 0 1-1.007-.586 11.192 11.192 0 0 1-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 0 1 2.415 1.84a61.11 61.11 0 0 1 2.772-.815z"/>
+                        <path d="M8 2.25c.909 0 3.188.685 4.254 1.022a.94.94 0 0 1 .656.773c.814 6.424-4.13 9.452-4.91 9.452V2.25z"/>
+                      </svg>
+                   </div>
+                
+                    <input class="co" type="username"  id="username"  placeholder="INSERISCI IL CODICE" required maxlength="6">
+                
+               
+               </div>
+               
+               
+           </div>
+           <div>
+            <p id="codex-error">*Codice non valido</p>
+           </div>
+         
+           
+            
+           <div class="entr">
+            <button id="entra" type="submit">ENTRA</button>
+           </div> 
+           
+           
+          
+
+
+       </form>
+   </div>
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="formcroce.js"></script>
+</body>
+</html>

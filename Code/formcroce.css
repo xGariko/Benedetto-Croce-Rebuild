@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: LEMON MILK ;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#username {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+    text-align: center;
+    padding: 10px;
+    width: 600px;
+    margin-top: 70px;
+    margin-right: 82px;
+    
+    
+    
+}
+
+.container .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+svg{
+    margin-top: 12px;
+}
+
+.pass{
+    display: flex;
+    align-items: center;
+    width: 682px;
+    
+
+
+}
+
+.pass1{
+    display: flex;
+    margin-top: 70px;
+    
+}
+.pass2{
+    display: flex;
+}
+
+.credenziali {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 520px;
+}
+
+
+
+
+
+.bottone {
+    
+}
+
+
+.tutto {
+    display: flex;
+    width: 682px;
+    margin-top: 50px;
+    
+  
+}
+
+.codex{
+    width: 80px;
+    display: flex;
+    
+    
+}
+
+.codice {
+    width: 300px;
+}
+
+
+
+.codex #username {
+    width: 259px;
+    
+}
+
+#entra {
+    background-color: black;
+    color: white;
+    outline: 0;
+    border: 1px solid black;
+    text-align: center;
+    width: 150px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    height: 40px;
+    font-size: 25px;
+    
+}
+
+#entra:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s;
+}
+
+.shield {
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.codex  {
+    margin-left: 40px;
+}
+
+#error {
+    font-size: 10px;
+    color: red;
+    display: none;
+}
+
+#codex-error {
+    font-size: 10px;
+    color: red;
+    display: none;
+    margin-left: 330px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
+    opacity: 0.6;
+    
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    opacity: 0.6;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    opacity: 0.6;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    opacity: 0.6;
+}

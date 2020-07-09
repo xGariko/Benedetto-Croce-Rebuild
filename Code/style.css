@@ -64,4 +64,90 @@ html{
   right: 25%;
 }
 
+/* collapse */
 
+.utility{
+  font-size: large;
+  color: white;
+  background-color: #343a40;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.utility:focus{
+  outline: none;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 0;
+}
+.line li{
+  width: 30px;
+  height: 3px;
+  background-color: red;
+}
+.hr{
+  position: relative;
+  bottom: 3.5rem;
+  border-top: 4px solid #343a40;
+  z-index: -1;
+}
+
+.upper{
+  border: none;
+  background-color: #343a40;
+  color: white;
+  font-size: large;
+  width: 17rem;
+  padding: .5rem 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: .3rem;
+}
+.lower{
+  border: none;
+  background-color: #343a40;
+  color: white;
+  width: 17rem;
+  height: 11rem;
+  font-size: 8em; 
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; 
+}
+
+/* .upper:focus,.lower:focus{
+  outline: 0em;
+} */
+
+@media (max-width: 575px){
+  .lezioni-icon{
+    position: relative;
+    bottom: 13.4rem;
+  }
+  .circolari-scritta{
+    position: relative;
+    top: 13rem;
+  }
+  .circolari-icon{
+    position: relative;
+    bottom: 4.7rem;
+  }
+
+  .libri-scritta{
+    position: relative;
+    top: 26rem;
+
+  }
+  .libri-icon{
+    position: relative;
+    top: 4rem;
+  }
+
+  
+}

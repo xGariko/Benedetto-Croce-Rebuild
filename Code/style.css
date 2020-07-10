@@ -125,7 +125,7 @@ html{
   outline: 0em;
 } */
 
-@media (max-width: 575px){
+@media (max-width: 576px){
   .lezioni-icon{
     position: relative;
     bottom: 13.4rem;
@@ -151,3 +151,42 @@ html{
 
   
 }
+@media (width: 576px){
+  .col-sm-4{
+    flex: none;
+    max-width: none;
+  }
+}
+/* verticalizza ad una larghezza maggiore (768px) */
+/* @media (max-width: 768px){
+  .lezioni-icon{
+    position: relative;
+    bottom: 13.4rem;
+  }
+  .circolari-scritta{
+    position: relative;
+    top: 13rem;
+  }
+  .circolari-icon{
+    position: relative;
+    bottom: 4.7rem;
+  }
+
+  .libri-scritta{
+    position: relative;
+    top: 26rem;
+
+  }
+  .libri-icon{
+    position: relative;
+    top: 4rem;
+  }
+
+  
+}
+@media (max-width: 768px){
+  .col-sm-4{
+    flex: none;
+    max-width: none;
+  }
+} */

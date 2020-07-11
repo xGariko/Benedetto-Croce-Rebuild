@@ -1,0 +1,107 @@
+html{
+    font-size: 62.5%;
+}
+/* navbar */
+
+.navbar{
+    padding: 0.8rem !important;
+  }
+  
+  .fa-facebook-square{
+    font-size: 4rem;
+    color: red;
+   }
+  
+  #text-link1, #text-link2{
+    padding-left: 2rem;
+    position: relative;
+    bottom: 1rem;
+    font-size: 1.4em;
+  }
+  
+  .fa-universal-access{
+    font-size: 4rem;
+    padding-right: 2rem;
+    position: relative;
+    top: .2rem;
+  }
+  
+  .navbar-toggler{
+    position: relative;
+    bottom: 1rem;
+  }
+  
+  .navbar-nav li{
+    font-size: 1.5em;
+  }
+   
+  .navbar-nav .dropdown-menu{
+    float: left;
+  }
+
+/* pdf */
+.row{
+	margin-right: 0px;
+}
+
+.titolo{
+    padding: 4rem 6rem;
+    font-size: 8em;
+}
+.pdf{
+	margin-left: -12.4rem;
+}
+
+.download{
+    font-size: x-large;
+    color: white;
+    background-color: #222222;
+    border: none;
+    padding: 1rem 2rem;
+	border-radius: 10px;
+	margin-bottom: 3rem;
+	margin-left: 7.5rem;
+}
+
+.fa-download{
+    padding-right: 1rem;
+}
+.sub-title{
+	font-size: 3em;
+	width: 30rem;
+	color: white;
+	background: #222222;
+	border: 1px solid black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 1rem 2rem;
+	margin-left: 3rem;
+	margin-bottom: 0;
+}
+.description{
+	font-size: 1.5em;
+	text-align: center;
+	width: 30rem;
+	margin-left: 3rem;
+	border: 1px solid #222222;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	height: 30rem;
+}
+@media (max-width: 768px){
+	.titolo{
+		text-align: center;
+	}
+	.pdf{
+		margin-left: 1.5rem;
+	}
+	.download{
+		margin-left: 24rem;
+	}
+	.sub-title{
+		margin-left: 19.5rem;
+	}
+	.description{
+		margin-left: 19.5rem;
+	}
+}

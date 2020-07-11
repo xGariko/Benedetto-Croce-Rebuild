@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circolare-x</title>
+
+    <script src="https://kit.fontawesome.com/8d00e2a7c1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="circolare-x.css">
+</head>
+<body>
+    <!-- navbar -->
+	<nav class="navbar bg-dark navbar-dark">
+		<!-- Lnavbar -->
+		<div class="left-element">
+			<a class="navbar-brand" href="#"><i class="fab fa-facebook-square"></i></a>
+			<a id="text-link1" class="text-left" href="http://liceocrocexarchimede.altervista.org/">x Archimede</a>
+			<a id="text-link2" href="http://artmatpalermo18.altervista.org/">ArtMatPalermo 18</a>
+		</div>
+		<!-- Rnavbar -->
+		<!-- Toggler/collapsibe Button -->
+		<div class="right-element">
+			<i class="fas fa-universal-access"></i>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		</div>
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Dropdown</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item"href="#">Boh</a>
+					<a class="dropdown-item"href="#">Boh1</a>
+					<a class="dropdown-item"href="#">Boh2</a>
+				</div>
+			</li>
+		</ul>
+		</div>
+  </nav>
+    <div class="row">
+		<div class="col-md-6">
+			<h1 class="titolo">CIRCOLARE-X</h1>
+		</div>
+	</div>
+	
+	<div class="row  justify-content-around col2">
+		<div class="col-md-4 sm-12 pdf">
+			<embed src="./res/circolare.pdf" type="application/pdf" width="100%" height="900rem">
+		</div>
+		<div class="col-md-4 sm-12">
+			<button class="download"><i class="fas fa-download"></i>DOWNLOAD</button>
+			<h2 class="sub-title">CARATTERISTICHE</h2>
+			<article class="description">caratteristiche</article>
+		</div>
+	</div>
+</body>
+</html>
